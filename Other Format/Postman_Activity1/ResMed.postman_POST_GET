@@ -1,0 +1,95 @@
+{
+	"variables": [],
+	"info": {
+		"name": "ResMed",
+		"_postman_id": "80cf7d77-a6da-4e4a-b047-f641119fc784",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://reqres.in/api/users/",
+			"request": {
+				"url": "https://reqres.in/api/users/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": "",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Jason Data",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "job",
+							"value": "Tester",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"description": "Adds Entry in to users"
+			},
+			"response": []
+		},
+		{
+			"name": "https://reqres.in/api/users/2",
+			"request": {
+				"url": "https://reqres.in/api/users/2",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": "",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Jason Data",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "job",
+							"value": "Tester",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"description": "Gets Entry from users"
+			},
+			"response": []
+		}
+	]
+}
